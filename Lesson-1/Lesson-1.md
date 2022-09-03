@@ -16,12 +16,19 @@ Don't worry about the css for now - no styles needed.
 
 This will come later :)
 
+The HTML page is already there - Basic-input.html
+
+So open it up and add the relevant inputs and button (add extra elements if you like).
 
 You can do the above with 2 input elements
 
 [Input Types](https://www.w3schools.com/html/html_form_input_types.asp)
 
+extra marks if you use labels also and add placeholder attribute to the input elements
+
 and one button element.
 
 [Button](https://www.w3schools.com/tags/tag_button.asp)
 
+
+p.s you will find comments in the 
