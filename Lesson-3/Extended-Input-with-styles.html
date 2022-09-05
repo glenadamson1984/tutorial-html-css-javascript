@@ -2,9 +2,35 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Login Page</title>
+    <!--TIP -->
+    <!--    There is 3 ways you can do styles - 1 is an inline style so you put it on the element itself-->
+    <!--    Another is to put it in an independant file completely with a .css extension or lastly you-->
+    <!--    can put it in a style element inside the head element-->
+    <!--    Read this -> https://www.w3schools.com/html/html_css.asp - again w3schools is your friend for now-->
+    <!-- PICK THE OPTION YOU LIKE -->
+
+    <!-- option 1 - add you styles in the style element below -->
+    <style>
+    </style>
+
+    <!-- option 2 - add your styles in the styles.css file found in this directory and uncomment this code -->
+    <!--    <link rel="stylesheet" href="styles.css">-->
 </head>
 <body>
 
+
+    <!-- Option 3 - add your styles inline - delete the div directly below and uncomment the next div -->
+    <div>Log In</div>
+    <!--    <div style="color:blue;">Log In</div>-->
+
+
+    <label for="email">Email</label>
+    <input type="text" id="email" placeholder="Enter your email address"/>
+    <label for="password">Password</label>
+    <input type="password" id="password" placeholder="Enter your password"/>
+    <input type="button" id="register" name="loginButton" value="Login"/>
+    <label for="rememberMe">Remember Me</label><input type="checkbox" id="rememberMe" name="rememberMe" value="Remember me" />
+    <a href="./forgotpassword.html">Forgot Password</a>
 </body>
 </html>
